@@ -79,7 +79,7 @@ color: var(--white);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    min-height: 85vh;
+    min-height: 72vh;
     align-items: center;
     color: var(--white);
     
@@ -97,15 +97,7 @@ color: var(--white);
     margin: 2rem 0;
 }
 .hero_text a{
-    text-decoration: none;
-    background-color: black;
-    color: white;
-    font-size: x-large;
-    border-radius: 1rem;
-    padding: 0.7rem 2.2rem;
-    font-family: var(--cfont);
-    font-weight: 900;
-    letter-spacing:0.1rem;
+    font-size:1.5rem;
 }
 .hero_text a:hover {
     background: white;
