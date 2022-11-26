@@ -79,7 +79,7 @@ color: var(--white);
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    min-height: 85vh;
+    min-height: 72vh;
     align-items: center;
     color: var(--white);
     
