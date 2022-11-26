@@ -1,0 +1,234 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+:root{
+    --blue: #1e90ff;
+    --white: #ffffff;
+    --padd :1rem;
+    --cfont: 'Lato', sans-serif;
+
+  }
+.fss-1{
+    font-size: 1.5rem;
+}
+.navbar_align_2{
+    visibility: hidden;
+    }
+.max_width{
+    max-width: 1600px;
+    margin: auto;
+    padding: 1rem;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+}
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    width: 13rem;
+}
+header nav ul li{
+    padding: 0px var(--padd);
+}
+header nav ul a {
+color: var(--white);
+    text-decoration: none;
+    font-size: larger;
+    font-family: var(--cfont);
+
+}
+
+.login ul li {
+    list-style-type: none;
+}
+@media screen and (max-width: 572px) {
+   .hero_text{
+    padding: 1rem;
+   }
+  }
+ /* End Nav Bar  */
+
+
+ /* Logo Css Start */
+/* 
+.logo_align{
+    position: relative;
+    top: -5rem;
+} */
+
+.logo_align img{
+   width: 5rem;
+    height: auto;
+    margin: 0 1rem;
+}
+
+
+ /* Logo Css End */
+
+ /* Main Here Css Start */
+
+.hero_section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 85vh;
+    align-items: center;
+    color: var(--white);
+    
+}
+
+
+.hero_text h1{
+    font-size: 5rem;
+    font-family: var(--cfont);
+    font-weight: 900;
+}
+.hero_text h4{
+    font-size: 2rem;
+    font-style: italic;
+    margin: 2rem 0;
+}
+.hero_text a{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    border-radius: 1rem;
+    padding: 0.7rem 2.2rem;
+    font-family: var(--cfont);
+    font-weight: 900;
+    letter-spacing:0.1rem;
+}
+.hero_text a:hover {
+    background: white;
+    color: black;
+}
+
+.hero_text p{
+    font-family: var(--cfont);
+    margin-top: 3rem;
+    max-width: initial;
+    font-size: x-large;
+}
+.hero_image img{
+    max-width: 100%;
+    height: auto;
+}
+.hero_image{
+    visibility: hidden;
+}
+@media screen and (max-width:836px){
+    .hero_section{
+       flex-direction: column;
+    }
+   .navbar{
+    justify-content: space-around;
+   }
+    .hero_text{
+        position: relative;
+        top: 3rem;
+    }
+}
+
+@media screen and (max-width:400px){
+.navbar_align_1{
+display: none;
+}
+.navbar_align_2{
+visibility: visible !important;
+}
+.hero_text {
+    text-align: center;
+}
+}
+/* hero end */
+
+/* second secition start  */
+.second_main_text {
+    margin-top: 2rem;
+    padding: 0 1rem;
+}
+.section_second {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+
+    justify-content: space-around;
+}
+.second_box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.second_main_text h1{
+    font-family: var(--cfont);
+    font-size: xxx-large;
+    text-align: center;
+}
+.second_box_layout {
+    text-align: center;
+    margin: 2rem 0;
+    padding: 0 1rem;
+}
+.second_box_layout img   {
+max-width: 100%;
+}
+.show_btn a{
+text-decoration: none;
+background-color: black;
+color: white;
+font-size: x-large;
+border-radius: 1rem;
+padding: 0.7rem 2.2rem;
+font-family: var(--cfont);
+font-weight: 900;
+letter-spacing:0.1rem;
+}
+.show_btn a:hover{
+background-color: white;
+border: 1px solid black;
+color: black;
+}
+@media screen and (max-width:308px){
+    .hero_text h1{
+        font-size: 4em;
+    }
+}
+
+@media screen and (max-width: 1898px) and (min-width: 1600px){
+    .max_width{
+        max-width:1600px;
+    }
+}
+@media screen and (max-width: 1600px) and (min-width: 1400px){
+    .max_width{
+        max-width:1400px;
+    }
+}
+@media screen and (max-width: 1400px) and (min-width: 1160px){
+    .max_width{
+        max-width:1150px;
+    }
+}
+@media screen and (max-width: 1160px) and (min-width: 1000px){
+    .max_width{
+        max-width:1000px;
+    }
+}
+@media screen and (max-width: 1000px) and (min-width: 806px){
+    .max_width{
+        max-width:806px;
+    }
+}
