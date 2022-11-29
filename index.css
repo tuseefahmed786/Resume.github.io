@@ -1,16 +1,21 @@
 * {
   box-sizing: border-box;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600&display=swap');
+
 body {
   margin: 0;
   background-color: black;
   color: white;
+  
 }
 :root {
   --blue: #1e90ff;
   --white: #ffffff;
   --padd: 1rem;
-  --cfont: "Lato", sans-serif;
+  --cfont: 'Poppins', sans-serif;
+
 }
 .fss-1 {
   font-size: 1.5rem;
@@ -91,7 +96,8 @@ header nav ul a {
   margin: 2rem 0;
 }
 .hero_text a {
-  font-size: 1.5rem;
+  font-size: 1.3rem;
+  font-family: var(--cfont);
 }
 
 .hero_text p {
@@ -111,7 +117,21 @@ header nav ul a {
   margin: 0 auto;
   border-radius: 50%;
 }
+.projects_align{
+  display: flex;
+  background-color: #F1F2ED;
+  border-radius: 4rem;
+  color: black;
+  justify-content: space-evenly;
+}
 
+.projects_align a{
+  color: black;
+  text-decoration: none;
+}
+.burger_btn{
+  display: none;
+}
 @media screen and (max-width: 836px) {
   .hero_section {
     flex-direction: column-reverse;
@@ -137,6 +157,9 @@ header nav ul a {
   .hero_text {
     text-align: center;
   }
+  .burger_btn{
+    display: block;
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -150,6 +173,9 @@ header nav ul a {
   .hero_text h1 {
     font-size: 3.5rem;
   }
+}
+@media screen and (ma) {
+  
 }
 /* hero end */
 
@@ -202,6 +228,7 @@ header nav ul a {
   border: 1px solid black;
   color: black;
 }
+
 @media screen and (max-width: 308px) {
   .hero_text h1 {
     font-size: 4em;
