@@ -1,78 +1,135 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Design</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Design</title>
+    <!-- google font start -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- google font end -->
 
-  <!-- google font start -->
-  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300;1,900&display=swap" rel="stylesheet" />
-  <!-- google font end -->
+    <!-- bootstrap start  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+      crossorigin="anonymous"
+    />
 
-  <!-- bootstrap start  -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
+    <!-- bootsrtap end -->
 
-  <!-- bootsrtap end -->
+    <link rel="stylesheet" href="index.css" />
+  </head>
 
-  <link rel="stylesheet" href="index.css" />
-</head>
-
-<body>
-  <header>
-    <div class="max_width">
-      <div class="navbar">
-        <div class="logo_align">
-          <i class="fa-brands fa-free-code-camp fa-3x"></i>
-          <!-- <h4>Tuseef Ahmed</h4> -->
-        </div>
-
-        <nav class="navbar_align_1">
-          <ul>
-            <a href="https://github.com/tuseefahmed786">
-              <i class="fa-brands fa-github fss-1"></i></a>
-            <a href="https://www.linkedin.com/in/tuseef-ahmed-286a9521b/"><i
-                class="fa-brands fa-linkedin fss-1"></i></a>
-            <a href="mailto:atuseef261@gmail.com">
-              <i class="fa-solid fa-paper-plane fss-1"></i></a>
-          </ul>
-        </nav>
-        <!--"> fa-bounce animation  -->
-      </div>
-
-      <div class="hero_section">
-
-         <nav class="navbar_align_2">
-          <ul>
-            <a href="https://github.com/tuseefahmed786"><i class="fa-brands fa-github fss-1"></i></a>
-            <a href="https://www.linkedin.com/in/tuseef-ahmed-286a9521b/">
-              <i class="fa-brands fa-linkedin fss-1"></i></a>
-            <a href="mailto:atuseef261@gmail.com"><i class="fa-solid fa-paper-plane fss-1"></i></a>
-          </ul>
-        </nav>
-
-        <div class="hero_text">
-          <h1>Hi I'm Tuseef</h1>
-          <h4>Front End Developer</h4>
-          <div class="d-grid gap-2 d-md-block">
-            <a class="btn btn-outline-light p-3" href="tuseefcv.pdf" download>Cv Download</a>
+  <body>
+    <header>
+      <div class="max_width">
+        <div class="navbar">
+          <div class="logo_align">
+            <i class="fa-brands fa-free-code-camp fa-3x"></i>
+            <!-- <h4>Tuseef Ahmed</h4> -->
           </div>
+
+          <nav class="navbar_align_1">
+            <ul>
+              <a href="https://github.com/tuseefahmed786">
+                <i class="fa-brands fa-github fss-1"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/tuseef-ahmed-286a9521b/"
+                ><i class="fa-brands fa-linkedin fss-1"></i
+              ></a>
+              <a href="mailto:atuseef261@gmail.com">
+                <i class="fa-solid fa-paper-plane fss-1"></i
+              ></a>
+            </ul>
+          </nav>
+         <div class="burger_btn">
+          <nav class="navbar navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">            <i class="fa-brands fa-free-code-camp fa-2x"></i>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">            <i class="fa-brands fa-free-code-camp fa-2x"></i>
+                  </h5>
+                  <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="/">Home</a>
+                    </li>
+              
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Projects
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-dark">
+                        <li><a class="dropdown-item" href="https://tuseefahmed786.github.io/bankwebsite.github.io/">Banking</a></li>
+                        <li><a class="dropdown-item" href="https://tuseefahmed786.github.io/project.github.io/">Itlaic Res.</a></li>
+                    
+                     
+                      </ul>
+                    </li>
+                  </ul>
+                 
+                </div>
+              </div>
+            </div>
+          </nav>
+         </div>
+          <!--"> fa-bounce animation  -->
         </div>
-        <div class="hero_image">
+
+        <div class="hero_section">
+          <nav class="navbar_align_2">
+            <ul>
+              <a href="https://github.com/tuseefahmed786"
+                ><i class="fa-brands fa-github fss-1"></i
+              ></a>
+              <a href="https://www.linkedin.com/in/tuseef-ahmed-286a9521b/">
+                <i class="fa-brands fa-linkedin fss-1"></i
+              ></a>
+              <a href="mailto:atuseef261@gmail.com"
+                ><i class="fa-solid fa-paper-plane fss-1"></i
+              ></a>
+            </ul>
+          </nav>
+
+          <div class="hero_text">
+            <h1>Hi I'm Tuseef</h1>
+            <h4>Front End Developer</h4>
+            <div class="d-grid gap-2 d-md-block">
+              <a class="btn btn-outline-light py-2" href="tuseefcv.pdf" download
+                >Cv Download <i class="fa-solid fa-download"></i
+              ></a>
+            </div>
+
+          </div>
+          <div class="hero_image">
             <img src="mypic.jpg" alt="Here Is sMain Pic " />
           </div>
-       
+        </div>
       </div>
-    </div>
-  </header>
+    </header>
 
-  <!-- </section> -->
-  <script src="index.js"></script>
-  <!-- font awsome start  -->
-  <script src="https://kit.fontawesome.com/1513185f11.js" crossorigin="anonymous"></script>
-  <!-- font awsome end  -->
-</body>
+    <!-- </section> -->
+    <script src="index.js"></script>
+    <!-- font awsome start  -->
+    <script
+      src="https://kit.fontawesome.com/1513185f11.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
+    <!-- font awsome end  -->
+  </body>
 </html>
